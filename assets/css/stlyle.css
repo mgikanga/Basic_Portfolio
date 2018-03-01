@@ -27,18 +27,18 @@ header{
     padding-top: 30px;
    width: 270px;
    height: 68px;
-   margin-left: 233px;
-   
-  
-   
-
- 
+   margin-left: 233px; 
 }
+
 a,hr,form{
     font-family: Arial, Helvetica, sans-serif, Helvetica Neue;
     color: #777777;
 
 }
+a:hover{
+    color:blueviolet;
+}
+
 #ank{
     margin:5px; 
     text-decoration: none;
@@ -73,7 +73,7 @@ p,logo,a{
 
 
 .container{
-    background-color: yellow;
+   
     box-sizing: border-box; 
     width: 960px;
     margin: 0 auto 0 auto;
@@ -94,21 +94,25 @@ p{
 }
 #main{
     box-sizing: border-box; 
+    
     width: 650px;
     background-color: #ffffff;
     border: 1px solid;
     border-color: #dddddd;
     margin-top: 58px;
     padding: 10px;
-    background-color: violet;
+   
 
+}
+#main.portf{
+    height: 1000px;
 }
 
 
  #aside{
     box-sizing: border-box;
      position: relative;
-     top: -405px;
+     top: -378px;
      right: -690px;
      width: 270px;
      background-color: #ffffff;
@@ -121,9 +125,17 @@ p{
  }
  #aside.con{
      position: relative;
-     top: -580px;
+     top: -560px;
      right: -690px;
      width: 270px;
+
+ }
+ #aside.port{
+    position: relative;
+    top: -1000px;
+    right: -690px;
+    width: 270px;
+
 
  }
  input[type=text], select {
