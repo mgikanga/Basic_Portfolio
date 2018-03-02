@@ -38,6 +38,9 @@ a,hr,form{
 a:hover{
     color:blueviolet;
 }
+a:active{
+    color:blue;
+}
 
 #ank{
     margin:5px; 
@@ -112,7 +115,7 @@ p{
  #aside{
     box-sizing: border-box;
      position: relative;
-     top: -378px;
+     top: -375px;
      right: -690px;
      width: 270px;
      background-color: #ffffff;
